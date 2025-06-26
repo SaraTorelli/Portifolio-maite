@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home Brilhante</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+  <div class="logo">Maite</div>
+  <nav id="nav">
+    <a href="#home">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+      <a href="#skills">Skills</a>
+     <a href="#trajetoria">Trajetória Profissional</a>
+     <a href="#formacao">Trajetória Acadêmica</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+</header>
+
+ <!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1 class="typing-title">
+  <span id="typed-text"></span><span class="cursor">|</span>
+</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a est at nunc tincidunt dapibus. Proin sed purus at lacus tincidunt malesuada.</p>
+
+    <!-- Redes sociais com estilo de botão -->
+    <div class="social-icons">
+      <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <button class="btn-veja">Veja Mais</button>
+  </div>
+    <!-- Imagem ao lado do texto -->
+  <div class="hero-image">
+    <img src="https://via.placeholder.com/300" alt="Imagem de destaque">
+  </div>
+</section>
+  <!-- Sobre -->
+<section id="sobre" class="sobre-container">
+  <div class="sobre-content">
+    <div class="sobre-texto">
+      <h2 class="sobre-titulo">Sobre Nós</h2>
+      <p>
+        Somos uma equipe apaixonada por tecnologia e inovação. Nosso objetivo é entregar soluções modernas e eficientes para transformar ideias em realidade. Com foco em qualidade e criatividade, buscamos sempre superar expectativas.
+      </p>
+      <p>
+        Trabalhamos com as mais recentes tendências de design e desenvolvimento para garantir uma experiência única aos nossos clientes. Junte-se a nós nessa jornada de crescimento e sucesso!
+      </p>
+      <button class="btn-sobre">Saiba Mais</button>
+    </div>
+    <div class="sobre-imagem">
+      <img src="https://via.placeholder.com/400x300" alt="Equipe trabalhando">
+    </div>
+  </div>
+</section>
+  <!-- Projeto -->
+<section id="projetos" class="projetos-container">
+  <h2 class="projetos-titulo">Nossos Projetos</h2>
+  <div class="projetos-grid">
+    <div class="projeto-card">
+      <div class="carousel">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+1-1" alt="Projeto 1 imagem 1">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+1-2" alt="Projeto 1 imagem 2" class="hidden">
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+      </div>
+      <div class="projeto-info">
+        <h3>Projeto Incrível 1</h3>
+        <p>Descrição curta e impactante do projeto, destacando sua inovação e qualidade.</p>
+       <a href="projeto1.html" class="btn-projeto">Ver Projeto</a>
+      </div>
+    </div>
+
+    <div class="projeto-card">
+      <div class="carousel">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+2-1" alt="Projeto 2 imagem 1">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+2-2" alt="Projeto 2 imagem 2" class="hidden">
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+      </div>
+      <div class="projeto-info">
+        <h3>Projeto Incrível 2</h3>
+        <p>Descrição curta e impactante do projeto, destacando sua inovação e qualidade.</p>
+        <a href="projeto2.html" class="btn-projeto">Ver Projeto</a>
+      </div>
+    </div>
+
+    <div class="projeto-card">
+      <div class="carousel">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+3-1" alt="Projeto 3 imagem 1">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+3-2" alt="Projeto 3 imagem 2" class="hidden">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+3-3" alt="Projeto 3 imagem 3" class="hidden">
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+      </div>
+      <div class="projeto-info">
+        <h3>Projeto Incrível 3</h3>
+        <p>Descrição curta e impactante do projeto, destacando sua inovação e qualidade.</p>
+        <a href="projeto3.html" class="btn-projeto">Ver Projeto</a>
+      </div>
+    </div>
+
+    <div class="projeto-card">
+      <div class="carousel">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+4-1" alt="Projeto 4 imagem 1">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+4-2" alt="Projeto 4 imagem 2" class="hidden">
+        <img src="https://via.placeholder.com/400x250?text=Projeto+4-3" alt="Projeto 4 imagem 3" class="hidden">
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+      </div>
+      <div class="projeto-info">
+        <h3>Projeto Incrível 4</h3>
+        <p>Descrição curta e impactante do projeto, destacando sua inovação e qualidade.</p>
+        <a href="projeto4.html" class="btn-projeto">Ver Projeto</a>>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills-->
+<section id="skills" class="skills-container">
+  <h2 class="skills-titulo">Habilidades Técnicas</h2>
+  <div class="skills-lista">
+    <div class="skill-item">
+      <span class="skill-nome">JavaScript</span>
+      <div class="skill-bar-bg">
+        <div class="skill-bar" style="--skill-level: 90%;"></div>
+      </div>
+    </div>
+    <div class="skill-item">
+      <span class="skill-nome">CSS3</span>
+      <div class="skill-bar-bg">
+        <div class="skill-bar" style="--skill-level: 85%;"></div>
+      </div>
+    </div>
+    <div class="skill-item">
+      <span class="skill-nome">React</span>
+      <div class="skill-bar-bg">
+        <div class="skill-bar" style="--skill-level: 75%;"></div>
+      </div>
+    </div>
+    <div class="skill-item">
+      <span class="skill-nome">Node.js</span>
+      <div class="skill-bar-bg">
+        <div class="skill-bar" style="--skill-level: 70%;"></div>
+      </div>
+    </div>
+    <div class="skill-item">
+      <span class="skill-nome">SQL</span>
+      <div class="skill-bar-bg">
+        <div class="skill-bar" style="--skill-level: 80%;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Trajetória Profissional -->
+<section class="trajetoria-container"  id="trajetoria">
+  <h2 class="trajetoria-titulo">Trajetória Profissional</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-icon">🎓</div>
+      <div class="timeline-content">
+        <h3>Juinior</h3>
+        <span class="periodo">2012 - 2016</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae rem cumque tempore sunt eaque iusto quas, sed laborum maiores, ipsum dicta porro impedit. Fugit incidunt corrupti qui recusandae optio.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">💼</div>
+      <div class="timeline-content">
+        <h3>Desenvolvedor Jr. na Empresa ABC</h3>
+        <span class="periodo">2016 - 2018</span>
+        <p>Atuação em projetos web, aprimorando habilidades em frontend e backend, colaborando em equipes ágeis.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">🚀</div>
+      <div class="timeline-content">
+        <h3>Analista de Sistemas na Empresa DEF</h3>
+        <span class="periodo">2018 - 2021</span>
+        <p>Responsável pelo design e implementação de soluções escaláveis, liderando times e melhorando processos.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">🌟</div>
+      <div class="timeline-content">
+        <h3>Especialista em Tecnologia na Empresa GHI</h3>
+        <span class="periodo">2021 - Presente</span>
+        <p>Atuação estratégica, inovação tecnológica e gestão de projetos para o crescimento da empresa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Trajetória Acadêmica -->
+<section  class="formacao-container" id="formacao">
+  <h2 class="formacao-titulo">Formação Acadêmica</h2>
+  <div class="formacao-lista">
+    <div class="formacao-item">
+      <div class="formacao-icone">🎓</div>
+      <div class="formacao-conteudo">
+        <h3>Bacharelado em Ciência da Computação</h3>
+        <span class="formacao-periodo">2012 - 2016</span>
+        <p>Universidade XYZ - Ênfase em desenvolvimento de software e engenharia de sistemas.</p>
+      </div>
+    </div>
+    <div class="formacao-item">
+      <div class="formacao-icone">📜</div>
+      <div class="formacao-conteudo">
+        <h3>Mestrado em Inteligência Artificial</h3>
+        <span class="formacao-periodo">2017 - 2019</span>
+        <p>Instituto ABC - Pesquisa focada em aprendizado de máquina e redes neurais.</p>
+      </div>
+    </div>
+    <div class="formacao-item">
+      <div class="formacao-icone">💻</div>
+      <div class="formacao-conteudo">
+        <h3>Curso Avançado em Desenvolvimento Web</h3>
+        <span class="formacao-periodo">2020</span>
+        <p>Plataforma Online DEF - Frameworks modernos, UI/UX e práticas ágeis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contato -->
+<section id="contato" class="contato-container">
+  <h2 class="contato-titulo">Contate-me</h2>
+  <form class="contato-form" id="contato-form" method="POST" action="enviar_email.php">
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required placeholder="Seu nome completo" />
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required placeholder="seu@email.com" />
+    </div>
+    <div class="form-group">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem aqui..."></textarea>
+    </div>
+    <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+  </form>
+  <div id="form-feedback" class="form-feedback"></div>
+</section>
+
+
+  <!-- JS para menu mobile -->
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav");
+      nav.classList.toggle("active");
+    }
+    
+  const texts = [
+    "Bem-vindo à Página Brilhante",
+    "Explore nossos Projetos",
+    "Conecte-se com a Gente"
+  ];
+
+  const typedText = document.getElementById("typed-text");
+  let textIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function type() {
+    const currentText = texts[textIndex];
+    const delay = isDeleting ? 40 : 100;
+
+    typedText.textContent = currentText.substring(0, charIndex);
+
+    if (!isDeleting && charIndex < currentText.length) {
+      charIndex++;
+    } else if (isDeleting && charIndex > 0) {
+      charIndex--;
+    } else if (!isDeleting && charIndex === currentText.length) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+      return;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      textIndex = (textIndex + 1) % texts.length;
+    }
+
+    setTimeout(type, delay);
+  }
+
+  document.addEventListener("DOMContentLoaded", type);
+document.querySelectorAll('.projeto-card').forEach(card => {
+    const imgs = card.querySelectorAll('.carousel img');
+    const prevBtn = card.querySelector('.carousel-prev');
+    const nextBtn = card.querySelector('.carousel-next');
+    let current = 0;
+
+    function showImage(index) {
+      imgs.forEach((img, i) => {
+        img.classList.toggle('hidden', i !== index);
+      });
+    }
+
+    prevBtn.addEventListener('click', () => {
+      current = (current - 1 + imgs.length) % imgs.length;
+      showImage(current);
+    });
+
+    nextBtn.addEventListener('click', () => {
+      current = (current + 1) % imgs.length;
+      showImage(current);
+    });
+
+    // Inicializa mostrando a primeira imagem
+    showImage(current);
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const skillsSection = document.getElementById('skills');
+    const skillBars = skillsSection.querySelectorAll('.skill-bar');
+
+    function animateSkills() {
+      skillBars.forEach(bar => {
+        bar.classList.add('animate');
+      });
+    }
+
+    function onScroll() {
+      const rect = skillsSection.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.8) {  // 80% da tela
+        animateSkills();
+        window.removeEventListener('scroll', onScroll);
+      }
+    }
+
+    window.addEventListener('scroll', onScroll);
+    onScroll(); // checa no load também
+  });
+    document.addEventListener('DOMContentLoaded', () => {
+    const skillsSection = document.getElementById('skills');
+    const skillBars = skillsSection.querySelectorAll('.skill-bar');
+
+    function animateSkills() {
+      skillBars.forEach(bar => {
+        const duration = 3000 + Math.random() * 2000; // duração entre 3 e 5s
+        bar.style.animation = `pulseWidth ${duration}ms ease-in-out infinite`;
+      });
+    }
+
+    function onScroll() {
+      const rect = skillsSection.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.8) {
+        animateSkills();
+        window.removeEventListener('scroll', onScroll);
+      }
+    }
+
+    window.addEventListener('scroll', onScroll);
+    onScroll(); // checa no load também
+  });
+    document.getElementById('contato-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const feedback = document.getElementById('form-feedback');
+    feedback.textContent = 'Enviando...';
+    feedback.style.color = '#00bfff';
+
+    const formData = new FormData(e.target);
+
+    try {
+      const response = await fetch('enviar_email.php', {
+        method: 'POST',
+        body: formData
+      });
+
+      const text = await response.text();
+
+      if (response.ok) {
+        feedback.style.color = '#00ff99';
+        e.target.reset();
+      } else {
+        feedback.style.color = '#ff4444';
+      }
+
+      feedback.textContent = text;
+    } catch (error) {
+      feedback.style.color = '#ff4444';
+      feedback.textContent = 'Erro ao enviar a mensagem.';
+    }
+  });
+  </script>
+
+</body>
+</html>
